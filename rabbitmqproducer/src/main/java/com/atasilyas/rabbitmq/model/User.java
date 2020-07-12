@@ -1,4 +1,4 @@
-package com.atasilyas.rabbitmqproducer.model;
+package com.atasilyas.rabbitmq.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,6 +12,9 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
 
     private String id;
     private String name;

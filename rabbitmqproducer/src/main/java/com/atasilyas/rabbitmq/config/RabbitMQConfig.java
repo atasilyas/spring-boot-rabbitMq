@@ -1,4 +1,4 @@
-package com.atasilyas.rabbitmqproducer.config;
+package com.atasilyas.rabbitmq.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -12,9 +12,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class RabbitMQConfig {
 
-    public static final String messageExchange = "message_exchange";
-    public static final String messageQueue = "message_queue";
-    public static final String messageRoutingKey = "message_routing_key";
+
+    public static final String messageExchange = "message_exchangeV3";
+    public static final String messageQueue = "message_queueV3";
+    public static final String messageRoutingKey = "message_routing_keyV3";
 
 
     @Bean

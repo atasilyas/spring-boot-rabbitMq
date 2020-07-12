@@ -1,4 +1,4 @@
-package com.atasilyas.rabbitmqproducer;
+package com.atasilyas.rabbitmq;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
